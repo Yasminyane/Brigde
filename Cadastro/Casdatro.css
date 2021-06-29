@@ -1,0 +1,23 @@
+.nome{
+    border-width: 0 0 1.5px 0;
+    width:15%;
+    height: 40%;
+    background-color: brown;
+    margin-right: "1000px";
+}
+.nome1{
+    border-width: 0 0 1.5px 0;
+    width: 15%;
+    height: 40%;
+    background-color: brown;
+}
+.cadastro{
+    border: solid 1px gray;
+    border-radius: 3px;
+    width: 550px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+}
+
+}

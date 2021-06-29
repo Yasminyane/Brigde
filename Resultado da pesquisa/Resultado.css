@@ -1,0 +1,52 @@
+.navbar {
+    margin-left: 90px;
+}
+
+.busca {
+    border-radius: 6px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+    width: 17%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border: solid 1px gray;
+    margin-left: 120px;
+}
+.Pesquisar {
+    margin: 12px;
+}
+
+.filtro {
+    border-radius: 6px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 17%;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.indicador {
+    font-family: sans-serif;
+    margin-left: 120px;
+    border-width: 0 0 1.5px 0;
+    width: 700px;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px gray;
+    border-radius: 3px;
+    width: 550px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.infor {
+    font-size: 16px;
+    border-width: 0 0 1.5px 0;
+    margin: 12px;
+}
+

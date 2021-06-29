@@ -1,0 +1,19 @@
+.background{
+    background:url(‘background.png’);
+}
+.login{
+    background-color: white;
+    position: absolute ;
+    top: 170px;
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;   
+}
+.nome{
+    border-width: 0 0 1.5px 0;
+    width: 250px;
+}
+
+.infor-login{
+    margin: 25px;
+}

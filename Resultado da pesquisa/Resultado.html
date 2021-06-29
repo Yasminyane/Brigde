@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Resultado.css">
+    <script src="Resultado.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Resultado</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                     <div class="dropdown-divider"></div>
+                       <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Desativado</a>
+              </li>
+          </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+        </div>
+    </nav>
+    <img src="img/Capturar.jpg" class="Captura" width="100%" height="60%"/>
+    <div class="Barra">
+      <input class = "busca" type = "text" name = "Buscar_Profissão" placeholder =" Profissão..." />
+      <select class= "filtro" name="filtro">
+        <option value="Olinda" >Olinda</option>
+        <option value=" Arquitetura" > Arquitetura</option>
+        <option value=" Jaboatão" > Jaboatão</option>
+        <option value=" Camaragibe" > Camaragibe</option>
+        <option value=" Cabo de Santo Agostinho" > Cabo de Santo Agostinho</option>
+      </select>
+      <button type="button" class="Pesquisar btn btn-outline-primary btn-sm">  Pesquisar  </button>  
+    </div>
+    <div class="Resultado">
+      <input class="indicador" type="text" name = "Texto instrutivo" value="  Resultado da pesquisa" style="color:grey" readonly/>
+    </div>
+    <br>
+    <br>
+    <div class="formularios">
+        <img src="https://blog.faro.edu.br/wp-content/uploads/2018/10/249246-afinal-como-saber-se-eu-tenho-perfil-para-ser-engenheiro.jpg" class="imgCard" height="175px"/>
+        <div style="display: flex; flex-direction: column; margin: 10px;">
+          <h5>Robervaldo Souza</h5>
+           <div style="display: flex; flex-direction: row" >
+              <label>Jaboatão</label>
+              <label style="margin-left: 10px;">Engenheiro</label>
+           </div>
+        </div>
+        <div style="display: flex; align-content: flex-end; margin-top: 80px; ">
+          <button type="button" style="margin: 12px; margin-top: 50px;" class="contratar btn btn-outline-primary btn-sm">  Contratar  </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="formularios">
+        <img src="https://blog.faro.edu.br/wp-content/uploads/2018/10/249246-afinal-como-saber-se-eu-tenho-perfil-para-ser-engenheiro.jpg" class="imgCard" height="175px"/>
+        <div style="display: flex; flex-direction: column; margin: 10px;">
+          <h5>Rogério Abert</h5>
+            <div style="display: flex; flex-direction: row" >
+                <label>Olinda</label>
+                <label style="margin-left: 10px;">Pedreiro</label>
+            </div>
+        </div>
+        <div style="display: flex; align-content: flex-end; margin-top: 80px; ">
+            <button type="button" style="margin: 12px; margin-top: 50px;" class="contratar btn btn-outline-primary btn-sm">  Contratar  </button>
+        </div>
+    </div>
+      <br>
+      <br>
+    <nav aria-label="Navegação de página exemplo">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">1 <span class="sr-only">(atual)</span></a>
+            </li>
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+            <a class="page-link" href="#">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
