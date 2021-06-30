@@ -15,69 +15,92 @@
 
 <body>
 
-    <div>
-        <h1 id="titulo"><strong>Cadastro</strong></h1>
-        <p id="subtitulo"><strong>Preencha suas informações</strong></p>
-        <br>
-    </div>
-
-    <fieldset class="grupo">
-        <div class="campo">
-            <label for="nome"><strong>Nome</strong></label>
-            <input type="text" nome="nome" id="nome" required>
-        </div>
-
-        <div class="campo">
-            <label for="sobrenome"><strong>Sobrenome</strong></label>
-            <input type="text" nome="sobrenome" id="sobrenome" required>
+    <fieldset class="topo">
+        <div>
+            <h1 id="titulo"><strong>Cadastro</strong></h1>
+            <p id="subtitulo"><strong>Preencha suas informações</strong></p>
+            <br>
         </div>
     </fieldset>
 
-    <div class="campo">
-        <label for="email"><strong>E-mail</strong></label>
-        <input type="email" nome="email" id="email" required>
+    <div class="fundo">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome<h11>*</h11></strong></label>
+                <input type="text" nome="nome" id="nome" placeholder="Nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome<h11>*</h11></strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>E-mail<h11>*</h11></strong></label>
+            <input type="email" nome="email" id="email" placeholder="E-mail" required>
+            <small class="info">
+                <h11>*</h11>Seu email <b>não</b> será compartilhado.
+            </small>
+        </div>
+
+        <div class="campo">
+            <label for="email"><strong>Confirme o e-mail<h11>*</h11></strong></label>
+            <input type="email" nome="email" id="email" placeholder="Confirme o e-mail" required>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Senha<h11>*</h11></strong></label>
+                <input type="password" nome="nome" id="nome" placeholder="Senha" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Confirme a senha<h11>*</h11></strong></label>
+                <input type="password" nome="sobrenome" id="sobrenome" placeholder="Confirme a senha" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label><strong>Você está em busca de:</strong></label>
+
+            <div>
+                <input type="radio" nome="devweb" class="devweb" value="Clientes">Clientes
+            </div>
+            <div>
+                <input type="radio" nome="devweb" value="Profissionais">Profissionais
+            </div>
+        </div>
+
+
+        <fieldset class="grupo1">
+            <div id="check">
+                <label><strong>Em qual área você trabalha:</strong></label>
+            </div>
+            <div class="obs">
+                <p>
+                    <h11>*</h11>Se você é um profissional preencha.
+                </p>
+            </div>
+            <div><input type="checkbox" id="area1" nome="area1" value="Construção">
+                <label for="area1">Construção</label>
+            </div>
+            <div><input type="checkbox" id="area2" nome="area2" value="Reconstrução">
+                <label for="area2">Reconstrução</label>
+            </div>
+            <div><input type="checkbox" id="area3" nome="area3" value="Aquitetação">
+                <label for="area3">Aquitetação</label>
+            </div>
+            <div>
+                <input type="checkbox" id="area4" nome="area4" value="Decoração">
+                <label for="area4">Decoração</label>
+            </div>
+            <div>
+                <input type="checkbox" id="area5" nome="area5" value="Outros">
+                <label for="area5">Outros</label>
+            </div>
+        </fieldset>
     </div>
-
-    <div class="campo">
-        <label><strong>Você está em busca de:</strong></label>
-
-        <label>
-            <input type="radio" nome="devweb" class="devweb" value="frontend">Clientes
-        </label>
-        <label>
-            <input type="radio" nome="devweb" value="backend">Profissionais
-        </label>
-    </div>
-
-    <!-- <div class="campo">
-        <p class="texto"><strong>*Se você é um profissional preencha</strong> </p>
-    </div> -->
-
-    <fieldset class="grupo">
-        <div id="check">
-            <label class="texto"><strong>Em qual área você trabalha:</strong>
-                <p class="obs"><h11>*</h11>Se você é um profissional preencha</p>
-            </label><br><br>
-        </div>
-        <div><input type="checkbox" id="area1" nome="area1" value="Construção">
-            <label for="area1">Construção</label>
-        </div>
-        <div><input type="checkbox" id="area2" nome="area2" value="Reconstrução">
-            <label for="area2">Reconstrução</label>
-        </div>
-        <div><input type="checkbox" id="area3" nome="area3" value="Aquitetação">
-            <label for="area3">Aquitetação</label>
-        </div>
-        <div>
-            <input type="checkbox" id="area4" nome="area4" value="Decoração">
-            <label for="area4">Decoração</label>
-        </div>
-        <div>
-            <input type="checkbox" id="area5" nome="area5" value="Outros">
-            <label for="area5">Outros</label>
-        </div>
-    </fieldset>
-
     <button class="botao" type="submit" onsubmit="">Concluir</button>
 
 </body>
