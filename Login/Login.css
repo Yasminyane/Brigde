@@ -1,19 +1,111 @@
 .background{
     background:url(‘background.png’);
+    width: 30em;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #FFFAFA;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #2c1b0c;
+    margin-left: 36%;
+    margin-top: 0.5%;
+    justify-content: center;
+}
+
+input,button{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #2c1b0c;
+    border-radius: 5px;
+}
+.grupo{
+    margin-left: 1em;
+}
+
+.grupo label{
+    margin-bottom: 0.3em;
+    color: #2c1b0c;
+    display: block;
+}
+
+fieldset.campo{
+    float: left;
+    margin-left: 1em;
+    margin-top: 1%;
+}
+
+.grupo input[type="text"], .grupo input[type="password"]{
+    padding: 0.3em;
+    border: 1px solid #2c1b0c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    height: 1.5em;
+    width: 11em;
+    display: block;
+}
+
+.grupo input:focus{
+    background: #FFEBCD
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #ff7b00;
+    border:0 ;
+    margin-bottom:1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
+    /* position: absolute;
+    top: 90%;
+    left: 62.5%; */
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #FFE4C4;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0,0.2);
+    text-shadow: none ;
+}
+
+.info{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.cadastro{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
 .login{
-    background-color: white;
+    background-color: rgb(250, 0, 0);
     position: absolute ;
     top: 170px;
     width: 300px;
     height: 350px;
-    border-radius: 6px;   
+    border-radius: 20px;   
 }
+
 .nome{
     border-width: 0 0 1.5px 0;
     width: 250px;
 }
-
+.esqueceu{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
 .infor-login{
-    margin: 25px;
+    margin: 20px;
 }
