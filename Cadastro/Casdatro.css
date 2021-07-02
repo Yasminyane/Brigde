@@ -7,12 +7,6 @@ h11{
     color: red;
 }
 
-.background{
-    background-image:url(‘back.png’);
-    background-attachment: fixed;
-    
-}
-
 .topo{
     background-color:#cc7000;
     width: 26.7em;
@@ -53,7 +47,7 @@ h11{
 
 fieldset{
     border: 0;
-}
+} 
 
 .devweb{
     margin-top: 0.5%;
@@ -80,6 +74,7 @@ input,select,textarea,button{
     margin-bottom: 1em;
     margin-left: 1em;
 }
+
 .grupo1{
     margin-left: 1em;
 }
@@ -159,4 +154,4 @@ fieldset.grupo .campo{
 
 .botao, select{
     cursor: pointer;
-}
+} 

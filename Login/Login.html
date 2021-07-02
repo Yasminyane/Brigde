@@ -16,26 +16,37 @@
 
 <body>
 
-  <form role="form">
-    <fieldset class="campo">
-
-      <div class="grupo">
-        <label for="userLogin">Nome de usuário</label>
-        <input class="usuario" id="userLogin" type="text" placeholder="Usuário">
-      </div>
-
-      <div class="grupo">
-        <label for="userPassword">Senha</label>
-        <input class="senha" id="userPassword" type="password" placeholder="Senha">
-      </div>
-
-      <div class="grupo">
-        <a href="" class="info">Esqueci minha senha</a> <br>
-        <a href="" class="cadastro">Cadastre-se agora</a> <br>
-        <button type="button" class="botao"> Entrar </button>
-      </div>
+  <!-- <div class="imagem">
+    <img src="background.png">
+  </div> -->
+  <div class="tudo">
+    <fieldset class="titulo">
+      <h5 id="titulo1">Login</h5>
     </fieldset>
-  </form>
+
+    <div class="back">
+      <fieldset class="campo">
+        <div class="grupo">
+          <label class="usuario" for="userLogin"><strong>Nome de usuário</strong> </label>
+          <input class="input" id="userLogin" type="text" placeholder="Usuário">
+        </div>
+
+        <div class="grupo">
+          <label class="senha" for="userPassword"><strong>Senha</strong></label>
+          <input class="input" id="userPassword" type="password" placeholder="Senha">
+        </div>
+
+        <div class="grupo">
+          <a href="" class="info">Esqueceu a senha?</a> <br>
+          <p class="conta">Não tem conta? </p>
+          <a href="" class="cadastro"><u>Cadastre-se</u></a>
+          <button type="submit" onsubmit="" class="botao"> Entrar </button>
+        </div>
+
+      </fieldset>
+
+    </div>
+  </div>
 </body>
 
 </html>
